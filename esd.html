@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bike Website</title>
+    <style>
+        /* Reset default browser styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .bike-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .bike-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .bike-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Bike Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Bikes for Sale</a>
+        <a href="#">Accessories</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <img src="bike_hero_image.jpg" alt="Bike Shop Hero Image">
+    </section>
+
+    <section class="bike-list">
+        <div class="bike-card">
+            <img src="bike1.jpg" alt="Bike 1">
+            <h2>Mountain Bike</h2>
+            <p>Price: $500</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more bike cards here -->
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="contact_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2023 My Bike Shop. All rights reserved.
+    </footer>
+</body>
+
+</html>
