@@ -1,0 +1,2 @@
+Idatenbikes is an innovative web application designed to simplify the bike rental process. Users can easily browse a diverse selection of bicycles, check availability, and make reservations seamlessly. With features like user registration, an intuitive admin dashboard, and secure payment options, Idatenbikes offers a convenient and efficient solution for bike enthusiasts looking to explore their surroundings. Whether you're a casual rider or a biking aficionado, Idatenbikes aims to provide an enjoyable and hassle-free rental experience.
+
